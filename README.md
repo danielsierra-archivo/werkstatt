@@ -1,28 +1,38 @@
 # Werkstatt, web portafolio
 
-Demo v1 de la web del estudio: una sola página con scroll, hecha con los parámetros de diseño de Werkstatt (rejilla de 4 columnas, etiquetas a la izquierda, líneas finas, color casi nulo).
-
-Todo el contenido es de ejemplo y provisional: proyectos, textos y datos de contacto.
+Demo v3 de la web del estudio. Una sola página con scroll. Todo el contenido (proyectos, textos y datos de contacto) es de ejemplo y provisional.
 
 ## Cómo verla
 
-Abre `index.html` en el navegador. No necesita instalar nada. Requiere internet solo para cargar las tipografías.
+- En línea (GitHub Pages): https://danielsierra-archivo.github.io/werkstatt/
+- En local: abre `index.html` en el navegador. No necesita internet; las tipografías van incluidas en `fonts/`.
 
 ## Qué incluye
 
-- Portada con título girado y firma.
-- Obra: tres proyectos de ejemplo con plano y cotas dibujados en SVG.
-- Áreas, proceso, preguntas frecuentes y contacto.
-- Tema claro y oscuro según el sistema. Respeta "reducir movimiento".
+- Portada con titular grande, 2026 de puntos, regla lateral en centímetros y barra flotante translúcida.
+- Obra: tres proyectos de ejemplo con plano SVG que se traza, cotas y contadores.
+- Áreas, proceso, preguntas frecuentes y contacto (campos de muestra: aún no envían nada).
+- Respeta "reducir movimiento".
 
-## Tipografías
+## Estructura
 
-Todas con licencia libre (SIL OFL), cargadas desde Google Fonts: Inter, Cormorant y Nothing You Could Do. Verificar la licencia vigente en fonts.google.com antes de uso comercial.
+| Ruta | Qué es |
+|---|---|
+| `index.html` | Demo v3, la versión vigente |
+| `historial/` | Versiones anteriores: demo v1, rediseño de la v1, v2 opción A y v2 opción B |
+| `HISTORIAL.md` | Antecedentes: cómo se llegó aquí, decisiones y pendientes |
+| `fonts/` | Tipografías con licencia SIL OFL 1.1 (copias de la licencia en `fonts/licenses/`) |
+| `assets/logo/` | Logotipos de Werkstatt |
+
+Las pruebas con skills de terceros y el catálogo de efectos con códigos viven en https://github.com/danielsierra-archivo/werkstattdemo
+
+## Créditos y licencias
+
+- Tipografías: Cormorant, Inter, Nothing You Could Do, Archivo Black y Geist (usada solo en una versión del historial). Todas SIL OFL 1.1, obtenidas de Fontsource. Verificar la licencia vigente en fonts.google.com antes de uso comercial.
+- Ideas de movimiento y composición tomadas del método de Taste Skill (Leonxlnx, MIT) y de las guías de Impeccable (Paul Bakaus, Apache 2.0). El código es propio; no se copió texto ni código de esas skills.
+- Sin fotografías de terceros. Los planos son dibujos propios en SVG.
+- Licencia del repositorio: por definir.
 
 ## Pendientes
 
-- Fotografías propias de cada proyecto, con permiso de quien habita la obra.
-- Datos de contacto reales.
-- Nombre definitivo del estudio y de sus líneas.
-- Proyectos reales para sustituir los de ejemplo.
-- Licencia del repositorio: por definir.
+Ver la sección "Pendientes" de `HISTORIAL.md`.
