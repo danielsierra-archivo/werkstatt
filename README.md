@@ -31,7 +31,7 @@ Las pruebas con skills de terceros y el catálogo de efectos con códigos viven 
 - Tipografías: Cormorant, Inter, Nothing You Could Do, Archivo Black y Geist (usada solo en una versión del historial). Todas SIL OFL 1.1, obtenidas de Fontsource. Verificar la licencia vigente en fonts.google.com antes de uso comercial.
 - Ideas de movimiento y composición tomadas del método de Taste Skill (Leonxlnx, MIT) y de las guías de Impeccable (Paul Bakaus, Apache 2.0). El código es propio; no se copió texto ni código de esas skills.
 - Sin fotografías de terceros. Los planos son dibujos propios en SVG.
-- Licencia del repositorio: por definir.
+- Licencia del repositorio: © 2026 Daniel Sierra. Todos los derechos reservados. El código, los textos, los planos y los logotipos no se pueden copiar ni reutilizar sin permiso por escrito. Las tipografías conservan su propia licencia SIL OFL 1.1 (ver `fonts/licenses/`).
 
 ## Pendientes
 
